@@ -5,7 +5,7 @@
 replicaCount: 3
 
 image:
-  repository: a18ab77c4b90/2402-myimage
+  repository: ngnix:alpine
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "0.7"
