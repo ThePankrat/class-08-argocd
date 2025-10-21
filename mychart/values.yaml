@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: thepankrat
+  repository: thepankrat/2402-myimage
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "0.2"
